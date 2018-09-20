@@ -1,0 +1,19 @@
+{
+  "name": "lightning-bot",
+  "version": "1.0.0",
+  "description": "a discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariobob/lightning-bot.git"
+  },
+  "author": "mariobob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mariobob/lightning-bot/issues"
+  },
+  "homepage": "https://github.com/Mariobob/lightning-bot#readme"
+}
