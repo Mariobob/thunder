@@ -4,7 +4,8 @@
   "description": "a discord bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint .",
+    "fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/Mariobob/lightning-bot#readme",
   "dependencies": {
     "klasa": "github:dirigeants/klasa"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1"
   }
 }
