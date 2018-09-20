@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Mariobob/lightning-bot/issues"
   },
-  "homepage": "https://github.com/Mariobob/lightning-bot#readme"
+  "homepage": "https://github.com/Mariobob/lightning-bot#readme",
+  "dependencies": {
+    "klasa": "github:dirigeants/klasa"
+  }
 }
