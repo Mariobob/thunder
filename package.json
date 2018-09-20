@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/Mariobob/lightning-bot#readme",
   "dependencies": {
+    "discord.js": "github:discordjs/discord.js#master",
+    "dotenv": "^6.0.0",
     "klasa": "github:dirigeants/klasa"
   },
   "devDependencies": {
-    "eslint": "^4.18.1"
+    "eslint": "^4.19.1"
   }
 }

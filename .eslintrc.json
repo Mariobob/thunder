@@ -12,6 +12,7 @@
         "indent": [
             "error",
             2,
+            4,
             {
               "SwitchCase": 1
             }
@@ -29,12 +30,8 @@
             "error",
             "windows"
         ],
-        "quotes": [
-            "error",
-            "double"
-        ],
         "semi": [
-            "error",
+            "warn",
             "always"
         ]
     }
