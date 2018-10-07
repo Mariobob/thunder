@@ -1,6 +1,7 @@
 require('dotenv').config();
 const { Client } = require('klasa');
 
+
 new Client({
     clientOptions: {
         fetchAllMembers: false
