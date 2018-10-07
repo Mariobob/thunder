@@ -1,9 +1,12 @@
-const { Client } = require('klasa');
 require('dotenv').config();
+const { Client } = require('klasa');
+
 new Client({
-    fetchAllMembers: false,
+    clientOptions: {
+        fetchAllMembers: false
+    },
     prefix: 't.',
-    commandEditing: true,
+    cmdEditing: true,
     typing: true,
-    readyMessage: (client) => `Successfully initialized. Ready to serve ${client.guilds.size} guilds`
+    readyMessage: (client) => `${client.user.tag}, Ready to serve ${client.guilds.size} guilds and ${client.users.size} users`
 }).login(process.env.TOKEN);
