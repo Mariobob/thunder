@@ -1,6 +1,6 @@
 require('dotenv').config();
 const { Client } = require('klasa');
-
+const test = 1
 
 new Client({
     clientOptions: {
